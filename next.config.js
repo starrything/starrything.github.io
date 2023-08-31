@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "starrything.github.io",
+  basePath: "/starrything.github.io",
   reactStrictMode: true,
   swcMinify: true,
   modularizeImports: {
