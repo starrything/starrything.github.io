@@ -52,7 +52,7 @@ export default function About(props: any) {
                         <List dense={true} sx={{ pt: 0 }}>
                             {skillSets.map((skill, index) => {
                                 return (
-                                    <ListItem>
+                                    <ListItem key={index}>
                                         <ListItemText
                                             key={index}
                                             primary={(index + 1) + ". " + skill}
@@ -78,7 +78,7 @@ export default function About(props: any) {
                         <List dense={true} sx={{ pt: 0 }}>
                             {skillSets.map((skill, index) => {
                                 return (
-                                    <ListItem>
+                                    <ListItem key={index}>
                                         <ListItemText
                                             key={index}
                                             primary={(index + 1) + ". " + skill}
