@@ -15,12 +15,8 @@ import ListItemText from '@mui/material/ListItemText';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import HomeIcon from '@mui/icons-material/Home';
 import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
-import StarIcon from '@mui/icons-material/Star';
 import ChecklistIcon from '@mui/icons-material/Checklist';
 import ContactSupportOutlinedIcon from '@mui/icons-material/ContactSupportOutlined';
-import SettingsIcon from '@mui/icons-material/Settings';
-import SupportIcon from '@mui/icons-material/Support';
-import LogoutIcon from '@mui/icons-material/Logout';
 import ThemeRegistry from '@/app/components/ThemeRegistry/ThemeRegistry';
 
 export const metadata = {
@@ -38,20 +34,23 @@ const LINKS = [
 
 const PLACEHOLDER_LINKS = [
   { text: 'Contact', icon: ContactSupportOutlinedIcon },
-  /* { text: 'Support', icon: SupportIcon },
-  { text: 'Logout', icon: LogoutIcon }, */
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <link rel='icon' href='/favicon.ico' />
+      </head>
       <body>
         <ThemeRegistry>
           <AppBar position="fixed" sx={{ zIndex: 2000 }}>
-            <Toolbar sx={{ backgroundColor: 'background.paper' }}>
-              <DashboardIcon sx={{ color: '#444', mr: 2, transform: 'translateY(-2px)' }} />
-              <Typography variant="h6" noWrap component="div" color="black">
-                윤종현 페이지
+            <Toolbar sx={{ backgroundColor: 'background.paper', verticalAlign: 'middle' }}>
+              <Link color="inherit" href="/">
+                <DashboardIcon sx={{ color: 'text.primary', mr: 2, transform: 'translateY(-2px)' }} />
+              </Link>
+              <Typography variant="h6" noWrap component="div" color="text.primary">
+                {'Jonghyun Yoon'}
               </Typography>
             </Toolbar>
           </AppBar>

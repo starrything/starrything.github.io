@@ -13,9 +13,9 @@ export default function HomePage() {
   return (
     <Box sx={{ display: 'flex' }}>
       <div>
-        <Alert severity="info" sx={{ mt: 2, mb: 5 }}>
-          <AlertTitle>Hello there 👋</AlertTitle>
-          This app uses the Next.js App Router and Material UI v5.
+        <Alert severity="success" sx={{ mt: 2, mb: 5 }}>
+          <AlertTitle>안녕하세요! 👋</AlertTitle>
+          여기는 윤종현님의 개인 페이지입니다.
         </Alert>
         <Grid container rowSpacing={3} columnSpacing={3}>
           <Grid xs={6}>
