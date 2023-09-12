@@ -8,12 +8,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Stack from '@mui/material/Stack';
 
-const skillSetByIbkSystem = [
-    'Java8, 11'
-    , 'Javascript'
-    , 'React(Redux, Hook), Next.js(Page router, App router)'
-]
-const skillSetByIljin = [
+const skillSets = [
     'Java8, 11'
     , 'Spring boot, Spring Security'
     , 'JPA'
@@ -55,21 +50,6 @@ export default function About(props: any) {
                             </Typography>
                         </Stack>
                         <Typography variant="body1" sx={{ mb: 1 }}>솔루션 연구개발 업무를 수행하고 있습니다.</Typography>
-                        <Typography variant="h5" component="h3">
-                            Skill set
-                        </Typography>
-                        <List dense={true} sx={{ pt: 0 }}>
-                            {skillSetByIbkSystem.map((skill, index) => {
-                                return (
-                                    <ListItem key={index}>
-                                        <ListItemText
-                                            key={index}
-                                            primary={(index + 1) + ". " + skill}
-                                        />
-                                    </ListItem>
-                                )
-                            })}
-                        </List>
                     </Box>
                     <Box sx={{ mb: 1 }}>
                         <Stack direction={'row'} spacing={1}>
@@ -81,11 +61,13 @@ export default function About(props: any) {
                             </Typography>
                         </Stack>
                         <Typography variant="body1" sx={{ mb: 1 }}>프로젝트 지원, 솔루션 개발 및 연구과제 수행</Typography>
-                        <Typography variant="h5" component="h3">
+                    </Box>
+                    <Box sx={{ mt: 2, mb: 1 }}>
+                        <Typography variant='h3' component={'h3'} gutterBottom>
                             Skill set
                         </Typography>
                         <List dense={true} sx={{ pt: 0 }}>
-                            {skillSetByIljin.map((skill, index) => {
+                            {skillSets.map((skill, index) => {
                                 return (
                                     <ListItem key={index}>
                                         <ListItemText

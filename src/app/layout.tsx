@@ -2,6 +2,7 @@ import * as React from 'react';
 import Link from 'next/link';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Drawer from '@mui/material/Drawer';
 import Toolbar from '@mui/material/Toolbar';
@@ -16,6 +17,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import HomeIcon from '@mui/icons-material/Home';
 import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
 import ChecklistIcon from '@mui/icons-material/Checklist';
+import LaunchIcon from '@mui/icons-material/Launch';
 import ContactSupportOutlinedIcon from '@mui/icons-material/ContactSupportOutlined';
 import ThemeRegistry from '@/app/components/ThemeRegistry/ThemeRegistry';
 
@@ -30,7 +32,7 @@ const LINKS = [
   { text: 'Home', href: '/', icon: HomeIcon },
   { text: 'About', href: '/about', icon: SentimentSatisfiedAltIcon },
   { text: 'Tasks', href: '/tasks', icon: ChecklistIcon },
-  { text: 'Links', href: '/links', icon: ChecklistIcon },
+  { text: 'Links', href: '/links', icon: LaunchIcon },
 ];
 
 const PLACEHOLDER_LINKS = [
@@ -50,9 +52,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link color="inherit" href="/">
                 <DashboardIcon sx={{ color: 'text.primary', mr: 2, transform: 'translateY(-2px)' }} />
               </Link>
-              <Typography variant="h6" noWrap component="div" color="text.primary">
+              <Typography variant="h6" noWrap component="div" color="text.primary" sx={{flexGrow: 1}}>
                 {'Jonghyun Yoon'}
               </Typography>
+              <Button color="inherit">Login</Button>
             </Toolbar>
           </AppBar>
           <Drawer
