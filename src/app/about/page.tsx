@@ -49,7 +49,7 @@ export default function About(props: any) {
                                 (@2022.03. ~)
                             </Typography>
                         </Stack>
-                        <Typography variant="body1" sx={{ mb: 1 }}>솔루션 연구개발 업무를 수행하고 있습니다.</Typography>
+                        <Typography variant="body1" sx={{ mb: 1 }}>솔루션 연구개발 업무 수행</Typography>
                     </Box>
                     <Box sx={{ mb: 1 }}>
                         <Stack direction={'row'} spacing={1}>
