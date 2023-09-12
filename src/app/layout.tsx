@@ -30,6 +30,7 @@ const LINKS = [
   { text: 'Home', href: '/', icon: HomeIcon },
   { text: 'About', href: '/about', icon: SentimentSatisfiedAltIcon },
   { text: 'Tasks', href: '/tasks', icon: ChecklistIcon },
+  { text: 'Links', href: '/links', icon: ChecklistIcon },
 ];
 
 const PLACEHOLDER_LINKS = [

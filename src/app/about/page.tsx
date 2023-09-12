@@ -8,10 +8,19 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Stack from '@mui/material/Stack';
 
-const skillSets = [
+const skillSetByIbkSystem = [
     'Java8, 11'
     , 'Javascript'
     , 'React(Redux, Hook), Next.js(Page router, App router)'
+]
+const skillSetByIljin = [
+    'Java8, 11'
+    , 'Spring boot, Spring Security'
+    , 'JPA'
+    , 'MariaDB, PostgreSQL'
+    , 'Javascript'
+    , 'React(Redux, Hook)'
+    , 'Server(Window, Linux), Web Server, Http Server(Apache, Nginx)'
 ]
 export default function About(props: any) {
     return (
@@ -50,7 +59,7 @@ export default function About(props: any) {
                             Skill set
                         </Typography>
                         <List dense={true} sx={{ pt: 0 }}>
-                            {skillSets.map((skill, index) => {
+                            {skillSetByIbkSystem.map((skill, index) => {
                                 return (
                                     <ListItem key={index}>
                                         <ListItemText
@@ -76,7 +85,7 @@ export default function About(props: any) {
                             Skill set
                         </Typography>
                         <List dense={true} sx={{ pt: 0 }}>
-                            {skillSets.map((skill, index) => {
+                            {skillSetByIljin.map((skill, index) => {
                                 return (
                                     <ListItem key={index}>
                                         <ListItemText
