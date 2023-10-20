@@ -26,7 +26,7 @@ import IconButton from '@mui/material/IconButton'
 import NaverBlogIcon from '/public/image/naver_blog.png'
 import YoutubeIcon from '/public/image/youtube.png'
 import InstagramIcon from '/public/image/instagram.png'
-import CameraIcon from '/public/image/camera.png'
+import FotosIcon from '/public/image/fotos.png'
 
 export const metadata = {
   title: 'Jonghyun',
@@ -124,10 +124,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </Link>
               <Link href={'https://yfotos.tistory.com/'} target='_blank'>
                 <Image
-                  src={CameraIcon}
+                  src={FotosIcon}
                   width={35}
                   height={35}
-                  alt="Camera"
+                  alt="Fotos"
                 />
               </Link>
             </Stack>
