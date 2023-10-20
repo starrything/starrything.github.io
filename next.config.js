@@ -1,5 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "starrything.github.io",
+        port: "",
+        pathname: "/image",
+      },
+    ],
+  },
   output: 'export',
   reactStrictMode: true,
   swcMinify: true,
@@ -7,16 +18,6 @@ const nextConfig = {
     "@mui/icons-material": {
       transform: "@mui/icons-material/{{member}}",
     },
-  },
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "starrything.github.io",
-        port: "",
-        pathname: "/random",
-      },
-    ],
   },
 };
 

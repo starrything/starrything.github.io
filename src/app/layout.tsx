@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import * as React from 'react';
 import Link from 'next/link';
 import AppBar from '@mui/material/AppBar';
@@ -20,6 +21,12 @@ import ChecklistIcon from '@mui/icons-material/Checklist';
 import LaunchIcon from '@mui/icons-material/Launch';
 import ContactSupportOutlinedIcon from '@mui/icons-material/ContactSupportOutlined';
 import ThemeRegistry from '@/app/components/ThemeRegistry/ThemeRegistry';
+import Stack from '@mui/material/Stack';
+import IconButton from '@mui/material/IconButton'
+import NaverBlogIcon from '/public/image/naver_blog.png'
+import YoutubeIcon from '/public/image/youtube.png'
+import InstagramIcon from '/public/image/instagram.png'
+import CameraIcon from '/public/image/camera.png'
 
 export const metadata = {
   title: 'Jonghyun',
@@ -29,10 +36,8 @@ export const metadata = {
 const DRAWER_WIDTH = 240;
 
 const LINKS = [
-  { text: 'Home', href: '/', icon: HomeIcon },
-  { text: 'About', href: '/about', icon: SentimentSatisfiedAltIcon },
-  { text: 'Tasks', href: '/tasks', icon: ChecklistIcon },
-  { text: 'Links', href: '/links', icon: LaunchIcon },
+  { text: 'Home', href: '/', icon: HomeIcon, collapsable: false },
+  { text: 'About', href: '/about', icon: SentimentSatisfiedAltIcon, collapsable: false },
 ];
 
 const PLACEHOLDER_LINKS = [
@@ -52,7 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link color="inherit" href="/">
                 <DashboardIcon sx={{ color: 'text.primary', mr: 2, transform: 'translateY(-2px)' }} />
               </Link>
-              <Typography variant="h6" noWrap component="div" color="text.primary" sx={{flexGrow: 1}}>
+              <Typography variant="h6" noWrap component="div" color="text.primary" sx={{ flexGrow: 1 }}>
                 {'Jonghyun Yoon'}
               </Typography>
               <Button color="inherit">Login</Button>
@@ -86,6 +91,46 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </ListItem>
               ))}
             </List>
+            <Stack
+              direction="row"
+              justifyContent="center"
+              alignItems="flex-end"
+              spacing={2}
+              height={'100%'}
+            >
+              <Link href={'https://blog.naver.com/starrything'} target='_blank'>
+                <Image
+                  src={NaverBlogIcon}
+                  width={35}
+                  height={35}
+                  alt="네이버 블로그"
+                />
+              </Link>
+              <Link href={'https://www.instagram.com/starrything'} target='_blank'>
+                <Image
+                  src={InstagramIcon}
+                  width={35}
+                  height={35}
+                  alt="인스타그램"
+                />
+              </Link>
+              <Link href={'https://www.youtube.com/@ylego89'} target='_blank'>
+                <Image
+                  src={YoutubeIcon}
+                  width={35}
+                  height={35}
+                  alt="유튜브"
+                />
+              </Link>
+              <Link href={'https://yfotos.tistory.com/'} target='_blank'>
+                <Image
+                  src={CameraIcon}
+                  width={35}
+                  height={35}
+                  alt="Camera"
+                />
+              </Link>
+            </Stack>
             <Divider sx={{ mt: 'auto' }} />
             <List>
               {PLACEHOLDER_LINKS.map(({ text, icon: Icon }) => (
