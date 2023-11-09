@@ -1,7 +1,13 @@
-# Overview
+## NODE.JS
 
-# Resources
-## mui
-> mui와 Next.js 타입스크립트 버전 기반으로 만들어졌습니다.  
+- Node 16.x || 18.x
 
-https://github.com/mui/material-ui/tree/master/examples/material-ui-nextjs-ts
+## USING YARN (Recommend)
+
+- yarn install
+- yarn dev
+
+## USING NPM
+
+- npm i OR npm i --legacy-peer-deps
+- npm run dev

@@ -1,60 +1,11 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Unstable_Grid2';
-import Drawer from '@mui/material/Drawer';
-import Typography from '@mui/material/Typography';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import Alert from '@mui/material/Alert';
-import AlertTitle from '@mui/material/AlertTitle';
-import MediaCard from '@/app/components/MediaCard';
+import { HomeView } from 'src/sections/home/view';
+
+// ----------------------------------------------------------------------
+
+export const metadata = {
+  title: 'Minimal: The starting point for your next project',
+};
 
 export default function HomePage() {
-  return (
-    <Box sx={{ display: 'flex' }}>
-      <div>
-        <Alert severity="success" sx={{ mt: 2, mb: 5 }}>
-          <AlertTitle>안녕하세요! 👋</AlertTitle>
-          여기는 윤종현님의 개인 페이지입니다.
-        </Alert>
-        <Grid container rowSpacing={3} columnSpacing={3}>
-          <Grid xs={6}>
-            
-          </Grid>
-          <Grid xs={6}>
-            
-          </Grid>
-          <Grid xs={6}>
-            
-          </Grid>
-          <Grid xs={6}>
-            
-          </Grid>
-        </Grid>
-      </div>
-      <Drawer
-        sx={{
-          width: 320,
-          flexShrink: 0,
-          '& .MuiDrawer-paper': {
-            width: 320,
-            boxSizing: 'border-box',
-            top: ['48px', '56px', '64px'],
-            height: 'auto',
-            bottom: 0,
-          },
-        }}
-        variant="permanent"
-        anchor="right"
-      >
-        <List sx={{ px: 2 }}>
-          <ListItem disablePadding>
-            <Typography variant="overline" sx={{ fontWeight: 500 }}>
-              On this page
-            </Typography>
-          </ListItem>
-        </List>
-      </Drawer>
-    </Box>
-  );
+  return <HomeView />;
 }
