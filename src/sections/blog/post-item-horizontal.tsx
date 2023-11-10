@@ -67,7 +67,7 @@ export default function PostItemHorizontal({ post }: Props) {
           </Stack>
 
           <Stack spacing={1} flexGrow={1}>
-            <Link color="inherit" component={RouterLink} href={paths.dashboard.post.details(title)}>
+            <Link color="inherit" component={RouterLink} href={'/dashboard/post/detail'}>
               <TextMaxLine variant="subtitle2" line={2}>
                 {title}
               </TextMaxLine>
@@ -141,7 +141,7 @@ export default function PostItemHorizontal({ post }: Props) {
         <MenuItem
           onClick={() => {
             popover.onClose();
-            router.push(paths.dashboard.post.details(title));
+            router.push('/dashboard/post/detail');
           }}
         >
           <Iconify icon="solar:eye-bold" />
@@ -151,7 +151,7 @@ export default function PostItemHorizontal({ post }: Props) {
         <MenuItem
           onClick={() => {
             popover.onClose();
-            router.push(paths.dashboard.post.edit(title));
+            router.push('/dashboard/post/edit');
           }}
         >
           <Iconify icon="solar:pen-bold" />
