@@ -237,7 +237,7 @@ export default function HomeHero() {
           <Stack alignItems="center" spacing={2}>
             <Button
               component={RouterLink}
-              href={paths.dashboard.root}
+              href={paths.about}
               color="inherit"
               size="large"
               variant="contained"
@@ -254,7 +254,7 @@ export default function HomeHero() {
             startIcon={<Iconify icon="radix-icons:reader" width={24} />}
             target="_blank"
             rel="noopener"
-            href={paths.figma}
+            href={paths.about}
             sx={{ borderColor: 'text.primary' }}
           >
             포스트 보러가기

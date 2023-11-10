@@ -87,23 +87,6 @@ export default function Header() {
           <Box sx={{ flexGrow: 1 }} />
 
           {mdUp && <NavDesktop data={navConfig} />}
-
-          <Stack alignItems="center" direction={{ xs: 'row', md: 'row-reverse' }}>
-            <Button variant="contained" target="_blank" rel="noopener" href={paths.minimalUI}>
-              Purchase Now
-            </Button>
-
-            {mdUp && <LoginButton />}
-
-            <SettingsButton
-              sx={{
-                ml: { xs: 1, md: 0 },
-                mr: { md: 2 },
-              }}
-            />
-
-            {!mdUp && <NavMobile data={navConfig} />}
-          </Stack>
         </Container>
       </Toolbar>
 
