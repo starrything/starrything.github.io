@@ -241,7 +241,7 @@ export default function HomeHero() {
               color="inherit"
               size="large"
               variant="contained"
-              startIcon={<Iconify icon="eva:flash-fill" width={24} />}
+              startIcon={<Iconify icon="solar:star-linear" width={24} />}
             >
               About 종현
             </Button>
@@ -251,7 +251,7 @@ export default function HomeHero() {
             color="inherit"
             size="large"
             variant="outlined"
-            startIcon={<Iconify icon="eva:external-link-fill" width={24} />}
+            startIcon={<Iconify icon="radix-icons:reader" width={24} />}
             target="_blank"
             rel="noopener"
             href={paths.figma}
