@@ -10,7 +10,6 @@ import Typography from '@mui/material/Typography';
 import { useSearchParams } from 'src/routes/hooks';
 
 import { useAuthContext } from 'src/auth/hooks';
-import { PATH_AFTER_LOGIN } from 'src/config-global';
 
 // ----------------------------------------------------------------------
 
@@ -45,7 +44,7 @@ export default function Auth0LoginView() {
     try {
       await loginWithRedirect?.({
         appState: {
-          returnTo: returnTo || PATH_AFTER_LOGIN,
+          returnTo: returnTo || '/',
         },
       });
     } catch (error) {
@@ -57,7 +56,7 @@ export default function Auth0LoginView() {
     try {
       await loginWithRedirect?.({
         appState: {
-          returnTo: returnTo || PATH_AFTER_LOGIN,
+          returnTo: returnTo || '/',
         },
         authorizationParams: {
           screen_hint: 'signup',
