@@ -189,8 +189,7 @@ export default function HomeHero() {
             textAlign: 'center',
           }}
         >
-          Start a <br />
-          New Project with
+          안녕하세요.
         </Typography>
       </m.div>
 
@@ -204,7 +203,7 @@ export default function HomeHero() {
             repeat: Infinity,
           }}
         >
-          Minimal
+          Product
         </StyledTextGradient>
       </m.div>
 
@@ -244,10 +243,10 @@ export default function HomeHero() {
               variant="contained"
               startIcon={<Iconify icon="eva:flash-fill" width={24} />}
             >
-              Live Preview
+              About 종현
             </Button>
 
-            <Link
+            {/* <Link
               color="inherit"
               variant="caption"
               target="_blank"
@@ -261,7 +260,7 @@ export default function HomeHero() {
             >
               <Iconify icon="eva:external-link-fill" width={16} sx={{ mr: 0.5 }} />
               Get Free Version
-            </Link>
+            </Link> */}
           </Stack>
 
           <Button
@@ -274,12 +273,12 @@ export default function HomeHero() {
             href={paths.figma}
             sx={{ borderColor: 'text.primary' }}
           >
-            Design Preview
+            포스트 보러가기
           </Button>
         </Stack>
       </m.div>
 
-      <Stack spacing={3} sx={{ textAlign: 'center' }}>
+      {/* <Stack spacing={3} sx={{ textAlign: 'center' }}>
         <m.div variants={varFade().in}>
           <Typography variant="overline" sx={{ opacity: 0.48 }}>
             Available For
@@ -298,7 +297,7 @@ export default function HomeHero() {
             </m.div>
           ))}
         </Stack>
-      </Stack>
+      </Stack> */}
     </Stack>
   );
 

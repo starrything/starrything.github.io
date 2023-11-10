@@ -56,10 +56,9 @@ export default function HomeView() {
     <MainLayout>
       <ScrollProgress scrollYProgress={scrollYProgress} />
 
-      <JonghyunHero />
+      <HomeHero />
 
       {/* 
-      <HomeHero />
       
       <Box
         sx={{
