@@ -1,8 +1,8 @@
 {
-  "name": "@minimal-kit/next-ts",
-  "author": "Minimals",
-  "version": "5.6.0",
-  "description": "Next & TypeScript",
+  "name": "@jonghyun-page/next-ts",
+  "author": "Jonghyun",
+  "version": "1.0.0",
+  "description": "Jonghyun's page.",
   "private": true,
   "scripts": {
     "dev": "next dev -p 8082",

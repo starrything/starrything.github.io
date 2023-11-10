@@ -1,3 +1,5 @@
+'use client';
+
 import { paramCase } from 'src/utils/change-case';
 import axios, { endpoints } from 'src/utils/axios';
 
