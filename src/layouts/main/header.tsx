@@ -68,8 +68,6 @@ export default function Header() {
             }}
             badgeContent={
               <Link
-                /* href={paths.changelog} */
-                href={'/'}
                 target="_blank"
                 rel="noopener"
                 underline="none"

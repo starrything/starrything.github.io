@@ -11,7 +11,6 @@ import Typography from '@mui/material/Typography';
 
 import ComponentHero from './component-hero';
 import ComponentCard from './component-card';
-import { muiNav, extraNav, foundationNav } from './config-navigation';
 
 // ----------------------------------------------------------------------
 
@@ -30,11 +29,6 @@ export default function ComponentsView() {
             </Typography>
           </Stack>
 
-          <Grid>
-            {foundationNav.map((item) => (
-              <ComponentCard key={item.name} item={item} />
-            ))}
-          </Grid>
         </Stack>
 
         <Divider sx={{ borderStyle: 'dashed', my: 8 }} />
@@ -68,11 +62,6 @@ export default function ComponentsView() {
             </Typography>
           </Stack>
 
-          <Grid>
-            {orderBy(muiNav, ['name'], ['asc']).map((item) => (
-              <ComponentCard key={item.name} item={item} />
-            ))}
-          </Grid>
         </Stack>
 
         <Divider sx={{ borderStyle: 'dashed', my: 8 }} />
@@ -86,11 +75,6 @@ export default function ComponentsView() {
             </Typography>
           </Stack>
 
-          <Grid>
-            {extraNav.map((item) => (
-              <ComponentCard key={item.name} item={item} />
-            ))}
-          </Grid>
         </Stack>
       </Container>
     </>
