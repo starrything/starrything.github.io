@@ -9,7 +9,6 @@ import MainLayout from 'src/layouts/main';
 
 import ScrollProgress from 'src/components/scroll-progress';
 
-import JonghyunHero from '../jh-hero';
 import HomeHero from '../home-hero';
 import HomeMinimal from '../home-minimal';
 import HomePricing from '../home-pricing';
