@@ -245,22 +245,6 @@ export default function HomeHero() {
             >
               About 종현
             </Button>
-
-            {/* <Link
-              color="inherit"
-              variant="caption"
-              target="_blank"
-              rel="noopener"
-              href={paths.freeUI}
-              sx={{
-                textDecoration: 'underline',
-                display: 'inline-flex',
-                alignItems: 'center',
-              }}
-            >
-              <Iconify icon="eva:external-link-fill" width={16} sx={{ mr: 0.5 }} />
-              Get Free Version
-            </Link> */}
           </Stack>
 
           <Button
@@ -277,27 +261,6 @@ export default function HomeHero() {
           </Button>
         </Stack>
       </m.div>
-
-      {/* <Stack spacing={3} sx={{ textAlign: 'center' }}>
-        <m.div variants={varFade().in}>
-          <Typography variant="overline" sx={{ opacity: 0.48 }}>
-            Available For
-          </Typography>
-        </m.div>
-
-        <Stack spacing={2} direction="row" justifyContent="center">
-          {['js', 'ts', 'figma', 'nextjs', 'vite'].map((icon) => (
-            <m.div key={icon} variants={varFade().in}>
-              <Box
-                component="img"
-                alt={icon}
-                src={`/assets/icons/platforms/ic_${icon}.svg`}
-                sx={{ width: 24, height: 24 }}
-              />
-            </m.div>
-          ))}
-        </Stack>
-      </Stack> */}
     </Stack>
   );
 
