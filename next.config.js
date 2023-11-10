@@ -1,18 +1,4 @@
 module.exports = {
-  images: {
-    unoptimized: true,
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "starrything.github.io",
-        port: "",
-        pathname: "/image",
-      },
-    ],
-  },
-  output: 'export',
-  reactStrictMode: true,
-  swcMinify: true,
   trailingSlash: true,
   modularizeImports: {
     "@mui/icons-material": {
