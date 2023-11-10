@@ -68,15 +68,16 @@ export default function Header() {
             }}
             badgeContent={
               <Link
-                href={paths.changelog}
+                /* href={paths.changelog} */
+                href={'/'}
                 target="_blank"
                 rel="noopener"
                 underline="none"
                 sx={{ ml: 1 }}
               >
-                <Label color="info" sx={{ textTransform: 'unset', height: 22, px: 0.5 }}>
+                {/* <Label color="info" sx={{ textTransform: 'unset', height: 22, px: 0.5 }}>
                   v5.6.0
-                </Label>
+                </Label> */}
               </Link>
             }
           >

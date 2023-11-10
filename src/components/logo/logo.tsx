@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import { forwardRef } from 'react';
 
 import Link from '@mui/material/Link';
@@ -86,7 +88,13 @@ const Logo = forwardRef<HTMLDivElement, LogoProps>(
 
     return (
       <Link component={RouterLink} href="/" sx={{ display: 'contents' }}>
-        {logo}
+        {/* {logo} */}        
+        <Image
+              alt="my Star"
+              src="/assets/images/star.png"
+              width={40}
+              height={40}
+            />
       </Link>
     );
   }
