@@ -57,7 +57,7 @@ export default function HomeView() {
 
       <HomeHero />
 
-      <Box
+      {/* <Box
         sx={{
           overflow: 'hidden',
           position: 'relative',
@@ -85,7 +85,7 @@ export default function HomeView() {
         <HomeLookingFor />
 
         <HomeAdvertisement />
-      </Box>
+      </Box> */}
     </MainLayout>
   );
 }

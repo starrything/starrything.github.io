@@ -21,24 +21,24 @@ import Iconify from 'src/components/iconify';
 
 const LINKS = [
   {
-    headline: 'Minimal',
+    headline: 'Jonghyun',
     children: [
-      { name: 'About us', href: paths.about },
+      { name: 'About', href: paths.about },
       { name: 'Contact us', href: paths.contact },
       { name: 'FAQs', href: paths.faqs },
     ],
   },
   {
+    headline: 'Contact',
+    children: [{ name: 'starrything@gmail.com', href: '#' }],
+  },
+/*   {
     headline: 'Legal',
     children: [
       { name: 'Terms and Condition', href: '#' },
       { name: 'Privacy Policy', href: '#' },
     ],
-  },
-  {
-    headline: 'Contact',
-    children: [{ name: 'support@minimals.cc', href: '#' }],
-  },
+  }, */
 ];
 
 // ----------------------------------------------------------------------
@@ -59,12 +59,12 @@ export default function Footer() {
       }}
     >
       <Container>
-        <Logo sx={{ mb: 1, mx: 'auto' }} />
+        {/* <Logo sx={{ mb: 1, mx: 'auto' }} /> */}
 
         <Typography variant="caption" component="div">
           © All rights reserved
           <br /> made by
-          <Link href="https://minimals.cc/"> minimals.cc </Link>
+          <Link href="#"> Jonghyun </Link>
         </Typography>
       </Container>
     </Box>
@@ -87,7 +87,7 @@ export default function Footer() {
           textAlign: { xs: 'center', md: 'unset' },
         }}
       >
-        <Logo sx={{ mb: 3 }} />
+        {/* <Logo sx={{ mb: 3 }} /> */}
 
         <Grid
           container
@@ -104,8 +104,7 @@ export default function Footer() {
                 mx: { xs: 'auto', md: 'unset' },
               }}
             >
-              The starting point for your next project with Minimal UI Kit, built on the newest
-              version of Material-UI ©, ready to be customized to your style.
+              윤종현님 개인 페이지입니다.
             </Typography>
 
             <Stack
@@ -162,7 +161,7 @@ export default function Footer() {
         </Grid>
 
         <Typography variant="body2" sx={{ mt: 10 }}>
-          © 2021. All rights reserved
+          © 2023. All rights reserved
         </Typography>
       </Container>
     </Box>
