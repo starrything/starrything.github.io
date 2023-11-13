@@ -123,6 +123,9 @@ export default function Footer() {
                       bgcolor: alpha(social.color, 0.08),
                     },
                   }}
+                  target="_blank"
+                  rel="noopener"
+                  href={social.path}
                 >
                   <Iconify color={social.color} icon={social.icon} />
                 </IconButton>
