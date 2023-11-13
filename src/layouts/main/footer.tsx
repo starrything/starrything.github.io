@@ -23,9 +23,8 @@ const LINKS = [
   {
     headline: 'Jonghyun',
     children: [
-      { name: 'About', href: paths.about },
-      { name: 'Contact us', href: paths.contact },
-      { name: 'FAQs', href: paths.faqs },
+      { name: 'About me', href: paths.about },
+      { name: 'Post', href: paths.contact },
     ],
   },
   {
