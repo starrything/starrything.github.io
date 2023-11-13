@@ -86,17 +86,17 @@ export default function AboutVision() {
         >
           {renderImg}
 
-          {renderLogo}
+          {/* {renderLogo} */}
 
-          <Fab sx={{ position: 'absolute', zIndex: 9 }}>
+          {/* <Fab sx={{ position: 'absolute', zIndex: 9 }}>
             <Iconify icon="solar:play-broken" width={24} />
-          </Fab>
+          </Fab> */}
         </Box>
 
         <m.div variants={varFade().inUp}>
-          <Typography variant="h3" sx={{ textAlign: 'center', maxWidth: 800, mx: 'auto' }}>
-            Our vision offering the best product nulla vehicula tortor scelerisque ultrices
-            malesuada.
+          <Typography variant="h5" sx={{ textAlign: 'center', maxWidth: 800, mx: 'auto' }}>
+            제가 그리는 미래는 보편적으로 인정받는 바름과 정의를 구현하는 세상입니다. <br />
+            좋은 사람들과 따뜻한 시간을 함께 공유하며 아름다운 기억을 쌓아나가는 것입니다.
           </Typography>
         </m.div>
       </Container>

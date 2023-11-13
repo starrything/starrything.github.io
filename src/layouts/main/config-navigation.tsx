@@ -11,35 +11,13 @@ export const navConfig = [
     path: '/',
   },
   {
-    title: 'Components',
+    title: 'About me',
     icon: <Iconify icon="solar:atom-bold-duotone" />,
-    path: paths.components,
+    path: paths.about,
   },
   {
-    title: 'Pages',
-    path: '/pages',
-    icon: <Iconify icon="solar:file-bold-duotone" />,
-    children: [
-      {
-        subheader: 'Other',
-        items: [
-          { title: 'About us', path: paths.about },
-          { title: 'Contact us', path: paths.contact },
-          { title: 'FAQs', path: paths.faqs },
-          { title: 'Pricing', path: paths.pricing },
-          { title: 'Payment', path: paths.payment },
-          { title: 'Maintenance', path: paths.maintenance },
-          { title: 'Coming Soon', path: paths.comingSoon },
-        ],
-      },
-      {
-        subheader: 'Error',
-        items: [
-          { title: 'Page 403', path: paths.page403 },
-          { title: 'Page 404', path: paths.page404 },
-          { title: 'Page 500', path: paths.page500 },
-        ],
-      },
-    ],
+    title: 'Post',
+    icon: <Iconify icon="solar:atom-bold-duotone" />,
+    path: paths.components,
   },
 ];

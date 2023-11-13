@@ -57,6 +57,7 @@ export default function HomeView() {
           bgcolor: 'background.default',
         }}
       >
+      Minimal Template
       </Box> */}
     </MainLayout>
   );

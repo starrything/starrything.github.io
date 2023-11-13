@@ -17,10 +17,6 @@ const ROOTS = {
 // ----------------------------------------------------------------------
 
 export const paths = {
-  comingSoon: '/coming-soon',
-  maintenance: '/maintenance',
-  pricing: '/pricing',
-  payment: '/payment',
   about: '/about-me',
   contact: '/contact-us',
   faqs: '/faqs',

@@ -7,6 +7,7 @@ import { useTheme } from '@mui/material/styles';
 import Box, { BoxProps } from '@mui/material/Box';
 
 import { RouterLink } from 'src/routes/components';
+import { Typography } from '@mui/material';
 
 // ----------------------------------------------------------------------
 
@@ -88,13 +89,17 @@ const Logo = forwardRef<HTMLDivElement, LogoProps>(
 
     return (
       <Link component={RouterLink} href="/" sx={{ display: 'contents' }}>
-        {/* {logo} */}        
+        {/* {logo} */}
         <Image
-              alt="my Star"
-              src="/assets/images/star.png"
-              width={40}
-              height={40}
-            />
+          alt="my Star"
+          src="/assets/images/star.png"
+          width={40}
+          height={40}
+        />
+        <Typography
+          variant='h6'
+        >
+          Jonghyun</Typography>
       </Link>
     );
   }

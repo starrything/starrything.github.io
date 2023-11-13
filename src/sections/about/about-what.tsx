@@ -76,7 +76,7 @@ export default function AboutWhat() {
         <Grid xs={12} md={6} lg={5}>
           <m.div variants={varFade().inRight}>
             <Typography variant="h2" sx={{ mb: 3 }}>
-              What is Minimal?
+              현재 진행중인 사항
             </Typography>
           </m.div>
 
@@ -86,14 +86,12 @@ export default function AboutWhat() {
                 color: theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
               }}
             >
-              Our theme is the most advanced and user-friendly theme you will find on the market, we
-              have documentation and video to help set your site really easily, pre-installed demos
-              you can import in one click and everything from the theme options to page content can
-              be edited from the front-end. This is the theme you are looking for.
+              @2024~ <br />
+              2025년 공인회계사(CPA) 2월 1차 시험과 동차 6월 2차 시험을 준비하고 있습니다.
             </Typography>
           </m.div>
 
-          <Stack spacing={3} sx={{ my: 5 }}>
+          {/* <Stack spacing={3} sx={{ my: 5 }}>
             {SKILLS.map((progress, index) => (
               <Box component={m.div} key={progress.label} variants={varFade().inRight}>
                 <Stack direction="row" alignItems="center" sx={{ mb: 1 }}>
@@ -113,9 +111,9 @@ export default function AboutWhat() {
                 />
               </Box>
             ))}
-          </Stack>
+          </Stack> */}
 
-          <m.div variants={varFade().inRight}>
+          {/* <m.div variants={varFade().inRight}>
             <Button
               variant="outlined"
               color="inherit"
@@ -124,8 +122,53 @@ export default function AboutWhat() {
             >
               Our Work
             </Button>
+          </m.div> */}
+        </Grid>
+      </Grid>
+      <Grid container columnSpacing={{ md: 3 }} alignItems="flex-start" sx={{ mt: 3 }}>
+        <Grid xs={12} md={6} lg={5}>
+          <m.div variants={varFade().inRight}>
+            <Typography variant="h2" sx={{ mb: 3 }}>
+              소프트웨어 개발
+            </Typography>
+          </m.div>
+
+          <m.div variants={varFade().inRight}>
+            <Typography
+              sx={{
+                color: theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
+              }}
+            >
+              @2022.3 ~ @2023.12 (IBK시스템)<br />
+              @2014.12 ~ @2022.2 (ILJIN 씨앤에스)<br />
+            </Typography>
           </m.div>
         </Grid>
+        {mdUp && (
+          <Grid container xs={12} md={6} lg={7} alignItems="center" sx={{ pr: { md: 7 } }}>
+            <Grid xs={6}>
+              <m.div variants={varFade().inUp}>
+                <Image
+                  alt="our office 2"
+                  src="/assets/images/about/what_2.png"
+                  ratio="1/1"
+                  sx={{ borderRadius: 3, boxShadow: shadow }}
+                />
+              </m.div>
+            </Grid>
+
+            <Grid xs={6}>
+              <m.div variants={varFade().inUp}>
+                <Image
+                  alt="our office 1"
+                  src="/assets/images/about/dev_1.jpg"
+                  ratio="3/4"
+                  sx={{ borderRadius: 3, boxShadow: shadow }}
+                />
+              </m.div>
+            </Grid>
+          </Grid>
+        )}
       </Grid>
     </Container>
     // </Box>

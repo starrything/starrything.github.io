@@ -65,6 +65,7 @@ export default function Header() {
                 top: 8,
                 right: -16,
               },
+              alignItems: 'center'
             }}
             badgeContent={
               <Link

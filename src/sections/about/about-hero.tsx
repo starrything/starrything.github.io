@@ -20,7 +20,8 @@ export default function AboutHero() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundImage:
-          'url(/assets/background/overlay_1.svg), url(/assets/images/about/hero.jpg)',
+          'url(/assets/images/about/hero.jpg)',
+          /* 'url(/assets/background/overlay_1.svg), url(/assets/images/about/hero.jpg)', */
       }}
     >
       <Container component={MotionContainer}>
@@ -39,8 +40,8 @@ export default function AboutHero() {
           <br />
 
           <Stack spacing={2} display="inline-flex" direction="row" sx={{ color: 'common.white' }}>
-            <TextAnimate text="we" />
-            <TextAnimate text="are?" />
+            <TextAnimate text="am" />
+            <TextAnimate text="I?" />
           </Stack>
 
           <m.div variants={varFade().inRight}>
@@ -52,8 +53,8 @@ export default function AboutHero() {
                 fontWeight: 'fontWeightSemiBold',
               }}
             >
-              Let&apos;s work together and
-              <br /> make awesome site easily
+              IT소프트웨어 개발 경력 9년,
+              <br /> 그리고 이제 새로운 영역을 개척하고 있습니다.
             </Typography>
           </m.div>
         </Box>
