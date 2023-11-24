@@ -30,6 +30,10 @@
         "name": "next"
       }
     ],
+    "paths": {
+      "@icons/*": ["./assets/icons/*"],
+      "@components/*": ["src/components/*"],
+    }
   },
   "include": [
     "next-env.d.ts",

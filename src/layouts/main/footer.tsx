@@ -7,6 +7,7 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
+import SvgIcon from '@mui/material/SvgIcon';
 
 import { paths } from 'src/routes/paths';
 import { usePathname } from 'src/routes/hooks';
@@ -16,6 +17,7 @@ import { _socials } from 'src/_mock';
 
 import Logo from 'src/components/logo';
 import Iconify from 'src/components/iconify';
+import SvgColor from '@components/svg-color';
 
 // ----------------------------------------------------------------------
 
@@ -31,13 +33,6 @@ const LINKS = [
     headline: 'Contact',
     children: [{ name: 'starrything@gmail.com', href: '#' }],
   },
-/*   {
-    headline: 'Legal',
-    children: [
-      { name: 'Terms and Condition', href: '#' },
-      { name: 'Privacy Policy', href: '#' },
-    ],
-  }, */
 ];
 
 // ----------------------------------------------------------------------
@@ -126,7 +121,8 @@ export default function Footer() {
                   rel="noopener"
                   href={social.path}
                 >
-                  <Iconify color={social.color} icon={social.icon} />
+                  {/* <Iconify color={social.color} icon={social.icon} /> */}
+                  <SvgColor color={social.color} src={social.src} sx={{ width: social.name === 'Naver' ? '16px !important;' : '24px', height: social.name === 'Naver' ? '16px !important;' : '24px' }} />
                 </IconButton>
               ))}
             </Stack>
