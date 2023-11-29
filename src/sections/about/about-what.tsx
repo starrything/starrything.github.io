@@ -149,7 +149,7 @@ export default function AboutWhat() {
             <Grid xs={6}>
               <m.div variants={varFade().inUp}>
                 <Image
-                  alt="our office 2"
+                  alt="task"
                   src="/assets/images/about/work_1.jpg"
                   ratio="1/1"
                   sx={{ borderRadius: 3, boxShadow: shadow }}
@@ -160,7 +160,7 @@ export default function AboutWhat() {
             <Grid xs={6}>
               <m.div variants={varFade().inUp}>
                 <Image
-                  alt="our office 1"
+                  alt="software development"
                   src="/assets/images/about/dev_1.jpg"
                   ratio="3/4"
                   sx={{ borderRadius: 3, boxShadow: shadow }}

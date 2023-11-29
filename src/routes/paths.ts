@@ -24,6 +24,7 @@ export const paths = {
   page404: '/error/404',
   page500: '/error/500',
   components: '/components',
+  post: '/post',
   // AUTH
   auth: {
     amplify: {
