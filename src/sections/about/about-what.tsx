@@ -52,8 +52,8 @@ export default function AboutWhat() {
             <Grid xs={6}>
               <m.div variants={varFade().inUp}>
                 <Image
-                  alt="our office 2"
-                  src="/assets/images/about/what_2.png"
+                  alt="accounting service"
+                  src="/assets/images/about/accounting_1.jpg"
                   ratio="1/1"
                   sx={{ borderRadius: 3, boxShadow: shadow }}
                 />
@@ -63,8 +63,8 @@ export default function AboutWhat() {
             <Grid xs={6}>
               <m.div variants={varFade().inUp}>
                 <Image
-                  alt="our office 1"
-                  src="/assets/images/about/what_1.png"
+                  alt="files"
+                  src="/assets/images/about/accounting_2.jpg"
                   ratio="3/4"
                   sx={{ borderRadius: 3, boxShadow: shadow }}
                 />
@@ -150,7 +150,7 @@ export default function AboutWhat() {
               <m.div variants={varFade().inUp}>
                 <Image
                   alt="our office 2"
-                  src="/assets/images/about/what_2.png"
+                  src="/assets/images/about/work_1.jpg"
                   ratio="1/1"
                   sx={{ borderRadius: 3, boxShadow: shadow }}
                 />
