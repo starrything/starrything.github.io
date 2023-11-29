@@ -50,7 +50,7 @@ export default function PostListHomeView() {
     metaTitle: "Minimal UI Kit",
     publish: "draft",
     tags: ["Technology", "Marketing", "Design", "Photography", "Art"],
-    title: "IBK시스템 (2022.03.-)",
+    title: "IBK시스템 (2022.03.-2024.01.)",
     totalComments: 0,
     totalFavorites: 0,
     totalShares: 0,
