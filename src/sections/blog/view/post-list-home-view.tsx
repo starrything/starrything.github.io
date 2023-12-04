@@ -50,7 +50,8 @@ export default function PostListHomeView() {
     metaTitle: "Minimal UI Kit",
     publish: "draft",
     tags: ["Technology", "Marketing", "Design", "Photography", "Art"],
-    title: "IBK시스템 (2022.03.-2024.01.)",
+    pageTitle: "IBK시스템 (2022.03.-2024.01.)",
+    title: "ibk",
     totalComments: 0,
     totalFavorites: 0,
     totalShares: 0,
@@ -71,7 +72,8 @@ export default function PostListHomeView() {
     metaTitle: "Minimal UI Kit",
     publish: "draft",
     tags: ["Technology", "Marketing", "Design", "Photography", "Art"],
-    title: "ILJIN C&S (2014.12.-2022.02.)",
+    pageTitle: "ILJIN C&S (2014.12.-2022.02.)",
+    title: "iljin",
     totalComments: 0,
     totalFavorites: 0,
     totalShares: 0,
@@ -117,7 +119,8 @@ export default function PostListHomeView() {
           results={searchResults}
           onSearch={handleSearch}
           loading={searchLoading}
-          hrefItem={(title: string) => '/post/detail'}
+          hrefItem={(title: string) => paths.post.details(title)}
+          /* hrefItem={(title: string) => '/post/test'} */
         />
 
         <PostSort sort={sortBy} onSort={handleSortBy} sortOptions={POST_SORT_OPTIONS} />

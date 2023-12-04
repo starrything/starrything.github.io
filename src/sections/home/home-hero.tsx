@@ -254,7 +254,7 @@ export default function HomeHero() {
             startIcon={<Iconify icon="radix-icons:reader" width={24} />}
             target="_blank"
             rel="noopener"
-            href={paths.post}
+            href={paths.post.root}
             sx={{ borderColor: 'text.primary' }}
           >
             포스트 보러가기

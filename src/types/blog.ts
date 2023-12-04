@@ -40,6 +40,7 @@ export type IPostComment = {
 
 export type IPostItem = {
   id: string;
+  pageTitle: string;
   title: string;
   tags: string[];
   publish: string;

@@ -10,8 +10,6 @@ const MOCK_TITLE = _postTitles[2];
 
 const ROOTS = {
   AUTH: '/auth',
-  AUTH_DEMO: '/auth-demo',
-  DASHBOARD: '/dashboard',
 };
 
 // ----------------------------------------------------------------------
@@ -24,7 +22,11 @@ export const paths = {
   page404: '/error/404',
   page500: '/error/500',
   components: '/components',
-  post: '/post',
+  /* post: '/post', */
+  post: {
+    root: '/post',
+    details: (title: string) => `/post/${paramCase(title)}`,
+  },
   // AUTH
   auth: {
     amplify: {

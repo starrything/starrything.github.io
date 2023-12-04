@@ -18,6 +18,6 @@ export const navConfig = [
   {
     title: 'Post',
     icon: <Iconify icon="solar:atom-bold-duotone" />,
-    path: paths.post,
+    path: paths.post.root,
   },
 ];

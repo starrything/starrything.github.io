@@ -35,7 +35,7 @@ export default function PostItem({ post, index }: Props) {
 
   const mdUp = useResponsive('up', 'md');
 
-  const { coverUrl, title, totalViews, totalComments, totalShares, author, createdAt } = post;
+  const { coverUrl, pageTitle, title, totalViews, totalComments, totalShares, author, createdAt } = post;
 
   const latestPost = index === 0 || index === 1 || index === 2;
 
@@ -54,6 +54,7 @@ export default function PostItem({ post, index }: Props) {
         />
 
         <PostContent
+          pageTitle={pageTitle}
           title={title}
           createdAt={createdAt}
           totalViews={totalViews}
@@ -104,6 +105,7 @@ export default function PostItem({ post, index }: Props) {
       </Box>
 
       <PostContent
+        pageTitle={pageTitle}
         title={title}
         totalViews={totalViews}
         totalComments={totalComments}
@@ -117,6 +119,7 @@ export default function PostItem({ post, index }: Props) {
 // ----------------------------------------------------------------------
 
 type PostContentProps = {
+  pageTitle: string;
   title: string;
   index?: number;
   totalViews: number;
@@ -126,6 +129,7 @@ type PostContentProps = {
 };
 
 export function PostContent({
+  pageTitle,
   title,
   createdAt,
   totalViews,
@@ -135,7 +139,8 @@ export function PostContent({
 }: PostContentProps) {
   const mdUp = useResponsive('up', 'md');
 
-  const linkTo = '/post/detail';
+  /* const linkTo = '/post/detail'; */
+  const linkTo = paths.post.details(title);
 
   const latestPostLarge = index === 0;
 
@@ -172,7 +177,8 @@ export function PostContent({
 
       <Link color="inherit" component={RouterLink} href={linkTo}>
         <TextMaxLine variant={mdUp && latestPostLarge ? 'h5' : 'subtitle2'} line={2} persistent>
-          {title}
+          {/* {title} */}
+          {pageTitle}
         </TextMaxLine>
       </Link>
 
