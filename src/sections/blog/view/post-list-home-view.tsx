@@ -51,7 +51,7 @@ export default function PostListHomeView() {
     publish: "draft",
     tags: ["Technology", "Marketing", "Design", "Photography", "Art"],
     pageTitle: "IBK시스템 (2022.03.-2024.01.)",
-    title: "ibk",
+    title: "ibks",
     totalComments: 0,
     totalFavorites: 0,
     totalShares: 0,
