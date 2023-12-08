@@ -40,6 +40,7 @@ export const getContents = {
         <li>엘라스틱 서치 기반 설비 데이터 모니터링</li>
         <li>ETRI 공동연구 - 빅데이터 분석 플랫폼 (+데이터 시각화 솔루션)</li>
       </ol>
+      <!-- ---------------- Divide Sections ---------------- -->
       <br/><br/><hr><br/><br/>
       <!-- ---------------- Divide Sections ---------------- -->
       <h3>주요 사항</h3><br/>
@@ -59,11 +60,25 @@ export const getContents = {
       여기서 플랫폼 아키텍처 설계 및 데이터 시각화 솔루션을 직접 개발했다.
       </p>
       <p>(<em>데이터 시각화 솔루션의 경우 'Apache Superset'을 참고했다.</em>)</p><br/>
+      <!-- ---------------- Divide Sections ---------------- -->
+      <br/><br/><hr><br/><br/>
+      <!-- ---------------- Divide Sections ---------------- -->
+      <h3>Skill set</h3><br/>
+      <ul>
+        <li>language: java8, javascript, Typescript, PL/SQL, python, R</li>
+        <li>framework: Spring Framework, Spring WebFlux, React, React Native, Vue.js, selenium</li>
+        <li>OSS: ELK stack, Redis, Kafka, Spark, ...</li>
+        <li>server: Windows server, Linux(CentOS, Ubuntu)</li>
+        <li>middleware: IIS, Nginx, Apache httpd, tomcat, SMTP</li>
+        <li>tools: IntelliJ, vsCode, dbeaver, FTP, MobaXTerm, UiPath(RPA) ...</li>
+      </ul>
+      <!-- ---------------- Divide Sections ---------------- -->
       <br/><br/><hr><br/><br/>
       <!-- ---------------- Divide Sections ---------------- -->
       <h3>한 줄 정리</h3>
       <br/>
       <blockquote>가장 중요한 것은...&nbsp;효율적인 문제해결 능력!&nbsp;</blockquote>
+      <!-- ---------------- Divide Sections ---------------- -->
       <br/><br/><hr><br/><br/>
       <!-- ---------------- Divide Sections ---------------- -->
       <img src=https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_14.jpg />
