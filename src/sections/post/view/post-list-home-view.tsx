@@ -11,7 +11,7 @@ import { paths } from 'src/routes/paths';
 
 import { useDebounce } from 'src/hooks/use-debounce';
 
-import { POST_SORT_OPTIONS } from 'src/_mock';
+import { POST_SORT_OPTIONS } from 'src/_post';
 import { useGetPosts, useSearchPosts } from 'src/api/blog';
 
 import { useSettingsContext } from 'src/components/settings';
@@ -82,7 +82,7 @@ export default function PostListHomeView() {
           my: { xs: 3, md: 5 },
         }}
       >
-        Blog
+        Post
       </Typography>
 
       <Stack
@@ -92,14 +92,13 @@ export default function PostListHomeView() {
         direction={{ xs: 'column', sm: 'row' }}
         sx={{ mb: { xs: 3, md: 5 } }}
       >
-        <PostSearch
+        {/* <PostSearch
           query={debouncedQuery}
           results={searchResults}
           onSearch={handleSearch}
           loading={searchLoading}
           hrefItem={(title: string) => paths.post.details(title)}
-          /* hrefItem={(title: string) => '/post/test'} */
-        />
+        /> */}
 
         <PostSort sort={sortBy} onSort={handleSortBy} sortOptions={POST_SORT_OPTIONS} />
       </Stack>
