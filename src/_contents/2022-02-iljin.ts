@@ -25,6 +25,24 @@ export const getContents = {
       <h1>작성 중입니다. (2023.12.08.)</h1><br/>
       <br/><br/>
       <h3>요약</h3><br/>
+      <p>1. WEB 운영</p>
+      <p>(약 4년, <em>2014.12. - 2018.12.</em></em>)</p>
+      <ol>
+        <li>웹 시스템 운영</li>
+        <li>윈도우 및 리눅스 서버 기본 환경 설정</li>
+        <li>윈도우 IIS, NginX, Tomcat 등 튜닝</li>
+      </ol>
+      <p></p><br/>
+      <p>2. 솔루션 연구개발</p>
+      <p>(약 3년, <em>2019.01. - 2022.02.</em>)</p>
+      <ol>
+        <li>일진 전자전표 솔루션</li>
+        <li>엘라스틱 서치 기반 설비 데이터 모니터링</li>
+        <li>ETRI 공동연구 - 빅데이터 분석 플랫폼 (+데이터 시각화 솔루션)</li>
+      </ol>
+      <br/><br/><hr><br/><br/>
+      <!-- ---------------- Divide Sections ---------------- -->
+      <h3>주요 사항</h3><br/>
       <p>어떻게 IT개발 직무를 시작하였나?</p><br/>
       <p>2014년 12월 일진 씨앤에스 ERP파트로 입사해서 ERP와 인터페이스하는 웹 시스템 담당자로 업무를 시작하였다.</p>
       <p><em>일진 씨앤에스는 '일진'그룹의 IT계열사이다. 그로인해 대내사업인 ITO매출이 거의 대부분을 이루었다.</em></p><br/>
@@ -33,24 +51,16 @@ export const getContents = {
       <p>일진 전기의 '영업관리'시스템에서 부터 '일진그룹 전자입찰', '법인카드 정산'시스템 등 여러 업무시스템을 운영했다. IT시스템을 운영하면서 현업들로부터의 <b>요청사항</b> 및 <b>시스템 고도화</b>, 그리고 운영환경의 성능을 위한 <b>최적화</b> 등의 업무를 수행했다.</p>
       <p>이 기간 동안 웹개발의 기본과 서버 환경(윈도우, 리눅스)에 대해 깊이 이해할 수 있었고, 가장 중요한 문제해결 능력이 대폭 상승되었다.</p><br/>
       <p>다음으로 <b>솔루션 연구개발</b> 업무를 수행하였다.</p>
+      <p>(약 3년, <em>2019.01. - 2022.02.</em>)</p>
       <br/><br/><hr><br/><br/>
       <!-- ---------------- Divide Sections ---------------- -->
-      <h3>주요 사항</h3><br/>
-      <ul>
-          <li>Renders actual, "native" React DOM elements</li>
-          <li>Allows you to escape or skip HTML (try toggling the checkboxes above)</li>
-          <li>If you escape or skip the HTML, no dangerouslySetInnerHTML is used! Yay!</li>
-        </ul>
-        <br/><br/>
-        <hr>
-        <br/><br/>
-        <h3>Ordered list</h3>
-        <br/>
-        <ol>
-          <li>Analysis</li>
-          <li>Design</li>
-          <li>Implementation</li>
-        </ol>
+      <h3>Ordered list</h3>
+      <br/>
+      <ol>
+        <li>Analysis</li>
+        <li>Design</li>
+        <li>Implementation</li>
+      </ol>
         <br/><br/>
         <hr>
         <br/><br/>
