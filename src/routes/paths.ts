@@ -22,7 +22,6 @@ export const paths = {
   page404: '/error/404',
   page500: '/error/500',
   components: '/components',
-  /* post: '/post', */
   post: {
     root: '/post',
     details: (title: string) => `/post/${paramCase(title)}`,
