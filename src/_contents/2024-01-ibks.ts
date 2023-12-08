@@ -39,7 +39,7 @@ export const getContents = {
       하나는 <strong>'Lit'</strong> 오픈소스 프로젝트를 활용한 공통 웹 컴포넌트 개발이었다.</p>
       <p>그리고 다른 하나는 <strong>'검색 조건 개인화'</strong> 기능 구현이었다. 해당 기능 구현을 통해 IBK시스템에서 관리하는 프레임워크 전반에 대해 이해할 수 있었다.</p><br/>
       <p>그 다음해인 2023년에는 'FP Mate'라는 솔루션을 개발 참여했다.</p>
-      <p>같은 본부 품질팀에서 기획/설계하고, 내가 <strong>개발 리딩</strong>을 담당해서 선도 개발 및 개발 가이드를 진행했다.
+      <p>같은 본부 품질팀에서 기획/설계하였고, 본인이 <strong>개발 리딩</strong>을 담당해서 선도 개발 및 개발 가이드를 진행했다.
       'FP Mate' 솔루션은 IT시스템의 각 기능별 function point를 산정해 원가를 계산할 수 있는 기능을 제공한다.
       </p><br/>
       <p><em>2022.12. 투자자산운용사 합격</em></P>
@@ -68,7 +68,7 @@ export const getContents = {
       <br/>
       `,
 
-    tags: ['Technology', 'Marketing', 'Design', 'Photography', 'Art'],
+    tags: ['Technology', 'web', 'uiux', 'dev', 'sql'],
 
     totalComments: 0,
     totalFavorites: 0,
