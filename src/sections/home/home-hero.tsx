@@ -203,18 +203,18 @@ export default function HomeHero() {
             repeat: Infinity,
           }}
         >
-          Product
+          Welcome
         </StyledTextGradient>
       </m.div>
 
       <m.div variants={varFade().in}>
         <Typography variant="body2" sx={{ textAlign: 'center' }}>
-          The starting point for your next project is based on MUI.Easy customization Helps you
-          build apps faster and better.
+          이곳은 '윤종현'님의 개인 페이지입니다.<br />
+          지난 경력사항과 현재 하고 있는 일들을 공유합니다.
         </Typography>
       </m.div>
 
-      <m.div variants={varFade().in}>
+      {/* <m.div variants={varFade().in}>
         <Stack
           spacing={0.75}
           direction="row"
@@ -230,7 +230,8 @@ export default function HomeHero() {
             (99+ reviews)
           </Typography>
         </Stack>
-      </m.div>
+      </m.div> */}
+      <br />
 
       <m.div variants={varFade().in}>
         <Stack spacing={1.5} direction={{ xs: 'column-reverse', sm: 'row' }} sx={{ mb: 5 }}>
@@ -378,7 +379,8 @@ export default function HomeHero() {
                 {renderDescription}
               </Grid>
 
-              {mdUp && <Grid md={6}>{renderSlides}</Grid>}
+              {/* renderSlides : 슬라이드 이미지 */}
+              {/* {mdUp && <Grid md={6}>{renderSlides}</Grid>} */}
             </Grid>
           </Container>
 
