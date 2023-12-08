@@ -26,6 +26,10 @@ export const paths = {
     root: '/post',
     details: (title: string) => `/post/${paramCase(title)}`,
   },
+  license: {
+    root: '/license',
+    details: (title: string) => `/license/${paramCase(title)}`,
+  },
   // AUTH
   auth: {
     amplify: {
