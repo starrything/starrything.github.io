@@ -40,7 +40,7 @@ export default function PostListHomeView() {
       avatarUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_1.jpg",
       name: "Jonghyun"
     },
-    coverUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_1.jpg",
+    coverUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_2.jpg",
     createdAt: "2024-01-05T08:32:59.689Z",
     id: "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1",
     pageTitle: "IBK시스템 (2022.03.-2024.01.)",
