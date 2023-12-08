@@ -22,8 +22,8 @@ export const getContents = {
     description: '2014년 12월 입사해 2022년 2월까지 만 7년 이상 근무한 ILJIN C&S에서의 경력입니다.',
 
     content: `<hr>
-      <h1>작성 중입니다. (2023.12.08.)</h1><br/>
       <br/><br/>
+      <!-- ---------------- Divide Sections ---------------- -->
       <h3>요약</h3><br/>
       <p>1. WEB 운영</p>
       <p>(약 4년, <em>2014.12. - 2018.12.</em></em>)</p>
@@ -50,26 +50,25 @@ export const getContents = {
       <p>(약 4년, <em>2014.12. - 2018.12.</em>)</p>
       <p>일진 전기의 '영업관리'시스템에서 부터 '일진그룹 전자입찰', '법인카드 정산'시스템 등 여러 업무시스템을 운영했다. IT시스템을 운영하면서 현업들로부터의 <b>요청사항</b> 및 <b>시스템 고도화</b>, 그리고 운영환경의 성능을 위한 <b>최적화</b> 등의 업무를 수행했다.</p>
       <p>이 기간 동안 웹개발의 기본과 서버 환경(윈도우, 리눅스)에 대해 깊이 이해할 수 있었고, 가장 중요한 문제해결 능력이 대폭 상승되었다.</p><br/>
-      <p>다음으로 <b>솔루션 연구개발</b> 업무를 수행하였다.</p>
+      <p>다음은 <b>솔루션 연구개발</b> 업무이다.</p>
       <p>(약 3년, <em>2019.01. - 2022.02.</em>)</p>
+      <p>2019년 중소기업 대상의 경비처리를 위한 '일진 전자전표' 솔루션을 개발하고 그룹 계열사에 보급했다. 각 사별 커스터마이징 및 ERP 인터페이스를 추가 구현하였다.</p>
+      <p>2020년 HK Global 레이저 가공 설비 제조 회사의 의뢰로 '설비 데이터 모니터링' 시스템을 구축했다. Elastic Search 기반으로 'HK Global'의 고객사 설비 데이터를 실시간 모니터링해 원격지원을 하기 위함이었다.</p>
+      <p>2021년에는 ETRI와 공동연구 과제(빅데이터 분석 플랫폼)를 수행했다. 해당 과제는 실증형 과제로 일진 디스플레이의 '사파이어 잉곳 성장로' 데이터를 기반으로 진행되었다.
+      고장 데이터 기반의 '고장 탐지 모델'은 ETRI의 박사급 연구원이 제공하였고 ILJIN C&S는 웹 기반 '분석 플랫폼' 및 '데이터 시각화' 솔루션을 구현하였다.
+      여기서 플랫폼 아키텍처 설계 및 데이터 시각화 솔루션을 직접 개발했다.
+      </p>
+      <p>(<em>데이터 시각화 솔루션의 경우 'Apache Superset'을 참고했다.</em>)</p><br/>
       <br/><br/><hr><br/><br/>
       <!-- ---------------- Divide Sections ---------------- -->
-      <h3>Ordered list</h3>
+      <h3>한 줄 정리</h3>
       <br/>
-      <ol>
-        <li>Analysis</li>
-        <li>Design</li>
-        <li>Implementation</li>
-      </ol>
-        <br/><br/>
-        <hr>
-        <br/><br/>
-        <h3>Blockquote</h3>
-        <br/><blockquote>Life is short, Smile while you still have teeth!&nbsp;</blockquote>
-        <br/><br/>
-        <hr>
-        <br/><br/>
-        <h3>Block Code</h3>\n\n<br/>\n\n<pre class="ql-syntax" spellcheck="false"><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">\'react\'</span>;\n<span class="hljs-keyword">import</span> <span class="hljs-title class_">ReactDOM</span> <span class="hljs-keyword">from</span> <span class="hljs-string">\'react-dom\'</span>;\n<span class="hljs-keyword">import</span> <span class="hljs-title class_">ReactMarkdown</span> <span class="hljs-keyword">from</span> <span class="hljs-string">\'react-markdown\'</span>;\n<span class="hljs-keyword">import</span> rehypeHighlight <span class="hljs-keyword">from</span> <span class="hljs-string">\'rehype-highlight\'</span>;\n\n<span class="hljs-title class_">ReactDOM</span>.<span class="hljs-title function_">render</span>(\n  <span class="hljs-tag">&lt;<span class="hljs-name">ReactMarkdown</span> <span class="hljs-attr">rehypePlugins</span>=<span class="hljs-string">{[rehypeHighlight]}</span>&gt;</span>{\'# Your markdown here\'}<span class="hljs-tag">&lt;/<span class="hljs-name">ReactMarkdown</span>&gt;</span>,\n  <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelector</span>(<span class="hljs-string">\'#content\'</span>)\n);\n</pre>\n\n<br/>\n\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\n\n<br/>\n<br/>\n<p>Why do we use it?</p>\n<br/>\n<br/>\n\n<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for \'lorem ipsum\' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\n\n<br/>\n<br/>\n<p>\n<img src=https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_5.jpg />\n</p>\n<br/>\n<br/>\n\n<p>\n    It is important that you buy links because the links are what get you the results that you want. The popularity of the links that are listed in the MTA directory is in fact one of the most important factors in the performance of the search engine. Links are important and this is why you have to purchase a link in order to bid on something and the best part is that a link will only cost you $1, which is nothing compared to what you would pay if you decided to do it through any other company or website.\n</p>\n\n<br/>\n<br/>\n<p>\n    <img src=https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_14.jpg />\n</p>\n<br/>\n<br/>
+      <blockquote>가장 중요한 것은...&nbsp;효율적인 문제해결 능력!&nbsp;</blockquote>
+      <br/><br/><hr><br/><br/>
+      <!-- ---------------- Divide Sections ---------------- -->
+      <img src=https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_14.jpg />
+      <br/>
+      <br/>
       `,
 
     tags: ['web', 'dev', 'oss', 'iljin', 'Open Source'],
