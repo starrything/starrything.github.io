@@ -102,16 +102,16 @@ export default function ProductShopView() {
       alignItems={{ xs: 'flex-end', sm: 'center' }}
       direction={{ xs: 'column', sm: 'row' }}
     >
-      <ProductSearch
+      {/* <ProductSearch
         query={debouncedQuery}
         results={searchResults}
         onSearch={handleSearch}
         loading={searchLoading}
         hrefItem={(id: string) => 'paths.product.details(id)'}
-      />
+      /> */}
 
       <Stack direction="row" spacing={1} flexShrink={0}>
-        <ProductFilters
+{/*         <ProductFilters
           open={openFilters.value}
           onOpen={openFilters.onTrue}
           onClose={openFilters.onFalse}
@@ -126,7 +126,7 @@ export default function ProductShopView() {
           ratingOptions={PRODUCT_RATING_OPTIONS}
           genderOptions={PRODUCT_GENDER_OPTIONS}
           categoryOptions={['all', ...PRODUCT_CATEGORY_OPTIONS]}
-        />
+        /> */}
 
         <ProductSort sort={sortBy} onSort={handleSortBy} sortOptions={PRODUCT_SORT_OPTIONS} />
       </Stack>
@@ -154,7 +154,6 @@ export default function ProductShopView() {
         mb: 15,
       }}
     >
-      <CartIcon totalItems={1} />
 
       <Typography
         variant="h4"
