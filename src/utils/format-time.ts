@@ -10,6 +10,12 @@ export function fDate(date: InputValue, newFormat?: string) {
   return date ? format(new Date(date), fm) : '';
 }
 
+export function fDateKr(date: InputValue, newFormat?: string) {
+  const fm = newFormat || 'yyyy.MM.dd.';
+
+  return date ? format(new Date(date), fm) : '';
+}
+
 export function fDateTime(date: InputValue, newFormat?: string) {
   const fm = newFormat || 'dd MMM yyyy p';
 

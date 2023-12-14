@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 import { paths } from 'src/routes/paths';
 import { RouterLink } from 'src/routes/components';
 
-import { fDate } from 'src/utils/format-time';
+import { fDate, fDateKr } from 'src/utils/format-time';
 import { fCurrency } from 'src/utils/format-number';
 
 import Label from 'src/components/label';
@@ -90,7 +90,7 @@ export default function LicenseItem({ license }: Props) {
               }),
             }}
           >
-            {fDate(passedAt)}
+            {'취득일(합격일) : ' + fDateKr(passedAt)}
           </Typography>
         </Stack>
       </Stack>
