@@ -71,7 +71,7 @@ export default function LicenseView() {
         "createdAt": "2023-12-14T07:00:16.801Z",
         "passedAt": "2023-08-11T10:00:00.000Z",
         "name": "AFPK(재무설계)",
-        "coverUrl": "https://api-prod-minimal-v510.vercel.app/assets/images/m_product/product_1.jpg",
+        "coverUrl": "/assets/images/license/afpk/afpk_logo.png",
         "subDescription": "AFPK 인증자는 재무설계업무에 관한 서비스를 제공할 수 있는 전문성과 고객의 이익을 우선으로 하는 윤리성을 지닌 전문가 입니다.",
       },
       {
