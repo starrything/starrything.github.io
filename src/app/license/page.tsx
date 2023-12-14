@@ -1,4 +1,4 @@
-import { ProductShopView as LicenseView } from 'src/sections/product/view';
+import { LicenseView } from 'src/sections/license/view';
 
 // ----------------------------------------------------------------------
 
