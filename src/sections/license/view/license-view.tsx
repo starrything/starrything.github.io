@@ -93,7 +93,7 @@ export default function LicenseView() {
         "createdAt": "2023-12-14T07:00:16.801Z",
         "passedAt": "2023-04-14T10:00:00.000Z",
         "name": "SQLD(SQL개발자)",
-        "coverUrl": "https://api-prod-minimal-v510.vercel.app/assets/images/m_product/product_2.jpg",
+        "coverUrl": "/assets/images/license/sqld/sql_logo.png",
         "subDescription": "데이터를 조작하고 추출하는데 있어서 정확하고 최적의 성능을 발휘하는 SQL을 작성할 수 있는 개발자",
       },
       {
@@ -115,7 +115,7 @@ export default function LicenseView() {
         "createdAt": "2023-12-14T07:00:16.801Z",
         "passedAt": "2022-12-08T10:00:00.000Z",
         "name": "투자자산운용사",
-        "coverUrl": "https://api-prod-minimal-v510.vercel.app/assets/images/m_product/product_3.jpg",
+        "coverUrl": "/assets/images/license/cim/investment_logo.png",
         "subDescription": "집합투자재산, 신탁재산 또는 투자일임재산을 운용하는 업무를 수행하는 자",
       },
       {
@@ -137,7 +137,7 @@ export default function LicenseView() {
         "createdAt": "2023-12-14T07:00:16.801Z",
         "passedAt": "2017-04-04T10:00:00.000Z",
         "name": "ADsP(데이터분석 준전문가)",
-        "coverUrl": "https://api-prod-minimal-v510.vercel.app/assets/images/m_product/product_4.jpg",
+        "coverUrl": "/assets/images/license/data/data_logo.png",
         "subDescription": "데이터 이해에 대한 기본지식을 바탕으로 데이터분석 기획 및 데이터분석 등의 직무를 수행하는 실무자를 말한다.",
       },
       {
@@ -159,7 +159,7 @@ export default function LicenseView() {
         "createdAt": "2023-12-14T07:00:16.801Z",
         "passedAt": "2014-08-22T10:00:00.000Z",
         "name": "정보처리기사",
-        "coverUrl": "https://api-prod-minimal-v510.vercel.app/assets/images/m_product/product_5.jpg",
+        "coverUrl": "/assets/images/license/tech/diagram.png",
         "subDescription": "컴퓨터에 관한 전문적인 지식과 기술을 갖춘 사람",
       },
     ]
