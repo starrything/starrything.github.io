@@ -69,9 +69,12 @@ export default function LicenseItem({ license }: Props) {
 
   const renderContent = (
     <Stack spacing={2.5} sx={{ p: 3, pt: 2 }}>
-      <Link component={RouterLink} href={linkTo} color="inherit" variant="subtitle2" noWrap>
+      {/* <Link component={RouterLink} href={linkTo} color="inherit" variant="subtitle2" noWrap>
         {name}
-      </Link>
+      </Link> */}
+      <Typography component={'div'} variant="subtitle2" noWrap>
+        {name}
+      </Typography>
 
       <Stack direction="row" alignItems="center" justifyContent="space-between">
         {/* <ColorPreview colors={colors} /> */}
