@@ -6,7 +6,7 @@ export const getContents = {
     id: 'e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1',
 
     author: {
-      avatarUrl: 'https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_1.jpg',
+      avatarUrl: 'https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_9.jpg',
       name: 'Jonghyun',
     },
 

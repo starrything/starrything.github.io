@@ -37,7 +37,7 @@ export default function PostListHomeView() {
   const [myPosts, setMyPosts] = useState<any[]>([
     {
     author: {
-      avatarUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_1.jpg",
+      avatarUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_9.jpg",
       name: "Jonghyun"
     },
     coverUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_2.jpg",
@@ -48,7 +48,7 @@ export default function PostListHomeView() {
   },
   {
     author: {
-      avatarUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_1.jpg",
+      avatarUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_9.jpg",
       name: "Jonghyun"
     },
     coverUrl: "https://api-dev-minimal-v510.vercel.app/assets/images/cover/cover_1.jpg",
