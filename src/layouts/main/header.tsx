@@ -86,6 +86,7 @@ export default function Header() {
           <Box sx={{ flexGrow: 1 }} />
 
           {mdUp && <NavDesktop data={navConfig} />}
+          {!mdUp && <NavMobile data={navConfig} />}
         </Container>
       </Toolbar>
 
